@@ -43,7 +43,6 @@ gemini-chatbot-api-Chatbot_Edukasi_Finansial/
 ├─ package.json          # Konfigurasi project & dependensi
 └─ .env                  # Environment variable (tidak dipublikasikan)
 ```
----
 
 > Catatan: File `node_modules`, `.env`, dan `package-lock.json` tidak disertakan dalam repository untuk menjaga keamanan dan kesederhanaan konfigurasi project.
 
@@ -60,6 +59,7 @@ gemini-chatbot-api-Chatbot_Edukasi_Finansial/
    ```bash
    npm install
 4. Buat file .env dan isi dengan API key Gemini:  
+   ```bash
    GEMINI_API_KEY=API_KEY_ANDA
 5. Jalankan server:  
    ```bash
