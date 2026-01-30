@@ -54,14 +54,17 @@ gemini-chatbot-api-Chatbot_Edukasi_Finansial/
    ```bash
    git clone <url-repository>
 2. Masuk ke folder project:
+   ```bash
    cd gemini-chatbot-api-Chatbot_Edukasi_Finansial
 3. Instalasi dependensi:
+   ```bash
    npm install
-4. Buat file .env dan isi dengan API key Gemini:
+4. Buat file .env dan isi dengan API key Gemini:  
    GEMINI_API_KEY=API_KEY_ANDA
-5. Jalankan server:
+5. Jalankan server:  
+   ```bash
    node index.js
-6. Buka browser dan akses:
+6. Buka browser dan akses:  
    http://localhost:3000
 
 ---
